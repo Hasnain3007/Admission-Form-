@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+</head>
+
+<body>
+    <table width="100%"><tr><td width="400px"></td><td><img src="sayl.png" alt="Error"></td><td><h1>Admission Form</h1></td></tr></table>
+   <form><fieldset>
+        <legend>
+            <h1>Persnol Details :-</h1>
+        </legend>
+        First Name : <input type="text" name="name" placeholder="First Name"> Last Name : <input type="text"
+            name="last name" placeholder="Last Name"> <br><br> Father
+        Name :
+        <input type="text" name="Fathername" placeholder="Father Name"><br><br>
+        Age : <input type="text" id="Age" placeholder="Age"> CNIC : <input type="text" name="CNIC" id="CNIC"
+            placeholder="*****-*******"><br><br>
+        Phone Number : <input type="text" name="Number" id="call" placeholder="+92 312-1212121"> Email : <input
+            type="email" name="email" id="email" placeholder="example@gmail.com" required><br><br> Gender : Male <input
+            type="radio" name="Gender" id="Male" checked> : Female <input type="radio" name="Gender" id="Female"> :
+        Others
+        <input type="radio" name="Gender" id="Others">
+        Religion : <select name="Religion" id="Religion">
+            <option name="Religion" value="Islam">Islam</option>
+            <option name="Religion" value="Hindu">Hindu</option>
+            <option name="Religion" value="Christan">Christan</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <Legend>
+            <H1>Eduction :-</H1>
+        </Legend>
+        School Name : <input type="text" name="school name" id="school"> Collage Name : <input type="text"
+            name="Collage Name" id="Collage"> <br><br>
+        Passing Date : <input type="date" name="date" id="date">
+        Degree : <select name="Degree" id="Degree">
+            <option value="None">None</option>
+            <option value="Matric">Matric</option>
+            <option value="intermediat">intermediat</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h1>Course :-</h1>
+        </legend>
+        Which course do you want :- <br>
+        <ul></ul>
+        <li> Web And App<input type="checkbox" name="course" id="Web And App"></li>
+        <li> Graphics Designing<input type="checkbox" name="course" id="Graphics Designing"></li>
+        <li> AI And DS<input type="checkbox" name="course" id="AI and DS"></li>
+        </ul>
+    </fieldset>
+    <fieldset><legend><h1>More Details :-</h1></legend>
+   <dl><dt>Input Your Picture Here : <input type="file" name="pic" id="pic"></dt><dd><button type="submit">Submit</button></dd>
+   </dl></fieldset></form>
+</body>
+</html>
